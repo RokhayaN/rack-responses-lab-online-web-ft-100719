@@ -1,6 +1,6 @@
 class Application
 
-  def app(env)
+  def application(env)
     resp = Rack::Response.new
     time =Time.now
     if time <= 12
