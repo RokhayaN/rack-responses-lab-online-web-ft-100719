@@ -8,7 +8,7 @@ class Application
 
     if time < = 12
       resp.write "Good Morning!"
-      else
+    else
       resp.write "Good Afternoon!" 
     end
     resp.finish 
